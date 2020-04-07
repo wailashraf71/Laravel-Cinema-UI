@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74e1ee08-e190-4275-85a0-2d1c3b2a0910" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/account.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/account.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/auth.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/auth.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/movies.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/movies.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/places.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/places.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sub/categories.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sub/categories.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sub/category_detail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sub/category_detail.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sub/movie_details.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sub/movie_details.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/sub/play.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sub/play.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/tv.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tv.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="74e1ee08-e190-4275-85a0-2d1c3b2a0910" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,7 +182,7 @@
       <workItem from="1586148075270" duration="25599000" />
       <workItem from="1586201032180" duration="1508000" />
       <workItem from="1586230109711" duration="9347000" />
-      <workItem from="1586240727030" duration="4584000" />
+      <workItem from="1586240727030" duration="4831000" />
     </task>
     <servers />
   </component>
@@ -211,22 +194,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1586093281424" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1586240745618">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1586245561941">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586240745618" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1586240745618">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586245561941" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1586245561940">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586240745618" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1586240745617">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586245561940" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1586245561940">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586240745617" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1586240745618">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586245561940" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1586245561940">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586240745618" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586245561940" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1586166414257">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

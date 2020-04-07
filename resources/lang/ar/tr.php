@@ -60,7 +60,7 @@ return [
       "Language"=> "اللغة",
       "Rate"=> "التقييم",
       "All"=> "الجميع",
-      "Release Year"=> "اللغة",
+      "Release Year"=> "السنة",
       "3h 30m"=> "3س 30د",
       "Remember me"=> "تذكّر كلمة المرور",
       "Month"=> "الشهر",
