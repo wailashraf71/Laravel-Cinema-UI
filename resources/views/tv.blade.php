@@ -6,7 +6,7 @@
     <div class="title">
         <br>
         <br>
-        <h1 class="text-white">News</h1>
+        <h1 class="text-white">{{ __('tr.News') }}</h1>
     </div>
     <div class="row wow fadeIn">
         <div class="col-lg-3 col-xs-2 p-4">
@@ -70,7 +70,7 @@
     <div class="title">
         <br>
         <br>
-        <h1 class="text-white">Sport</h1>
+        <h1 class="text-white">{{ __('tr.Netflix') }}</h1>
     </div>
     <div class="row wow fadeIn">
         <div class="col-lg-3 col-xs-2 p-4">

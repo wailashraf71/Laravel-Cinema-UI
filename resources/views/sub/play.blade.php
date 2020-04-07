@@ -17,7 +17,7 @@
     </div>
     <br>
     <div class="main-content">
-        <div class="container widgetHeader"><h1>Relevant</h1></div>
+        <div class="container widgetHeader"><h1>{{ __('tr.Relatives') }}</h1></div>
         <br>
         <div class="owl-carousel owl-theme">
             @for($i = 0; $i<10; $i++)

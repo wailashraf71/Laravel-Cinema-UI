@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -15,14 +15,12 @@
     <link rel="stylesheet" href="https://cdn.plyr.io/3.5.10/plyr.css" />
 
     <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700;800&display=swap" rel="stylesheet">
 
     <link href="{{asset('css/owl.carousel.min.css')}}" type="text/css" media="all" rel="stylesheet" />
 
 </head>
-<body>
+<body dir="rtl">
 
 <!-- Header -->
 <header class="header">
@@ -41,19 +39,19 @@
                         <ul class="header__nav">
                             <!-- dropdown -->
                             <li class="header__nav-item">
-                                <a class="header__nav-link {{ Request::segment(1) === 'index' ? 'nav_active' : null }}" href="{{url('index')}}" role="button">Movies</a>
+                                <a class="header__nav-link {{ Request::segment(1) === 'index' ? 'nav_active' : null }}" href="{{url('index')}}" role="button">{{ __('tr.Movies') }}</a>
                             </li>
                             <!-- end dropdown -->
 
                             <!-- dropdown -->
                             <li class="header__nav-item">
-                                <a class="header__nav-link {{ Request::segment(1) === 'tv' ? 'nav_active' : null }}" href="{{url('tv')}}" role="button">TV</a>
+                                <a class="header__nav-link {{ Request::segment(1) === 'tv' ? 'nav_active' : null }}" href="{{url('tv')}}" role="button">{{ __('tr.TV') }}</a>
 
                             </li>
                             <!-- end dropdown -->
 
                             <li class="header__nav-item">
-                                <a class="header__nav-link {{ Request::segment(1) === 'places' ? 'nav_active' : null }}" href="{{url('places')}}" role="button">Places</a>
+                                <a class="header__nav-link {{ Request::segment(1) === 'places' ? 'nav_active' : null }}" href="{{url('places')}}" role="button">{{ __('tr.Places') }}</a>
                             </li>
                         </ul>
 
@@ -65,7 +63,7 @@
                                     <i class="icon fa fa-search"></i>
                                 </button>
                             </li>
-                            <li class="dropdown open">
+                            <li class="dropdown open pl-4">
                                 <button class="dropdown-toggle header__bell-btn" id="dropdownMenuMore" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <i class="fa fa-bell"></i></button>
                                 <ul class="dropdown-menu header__dropdown-menu" aria-labelledby="dropdownMenuMore">
@@ -76,8 +74,8 @@
                                                 <span class="bg-primary rounded-circle p-1 text-center" style="width: 30px; height: 30px"><i class="fa fa-bell text-white"></i></span>
                                             </div>
                                             <div class="col text-white">
-                                                <h4>Did you pay your bill?</h4>
-                                                <p style="font-size: small; opacity: 0.4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis earum ex iure minima modi nihil quibusdam quidem quo reiciendis repellat repellendus sed sunt, tempore? Et laboriosam nihil nobis ratione velit?</p>
+                                                <h4>{{ __('tr.Did you pay for your subscription?') }}</h4>
+                                                <p style="font-size: small; opacity: 0.4">{{ __('tr.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.') }}</p>
                                             </div>
                                         </div>
                                             <hr>
@@ -92,7 +90,7 @@
 {{--                            </li>--}}
                             <a href="{{url('login')}}" class="header__sign-in">
                                 <i class="icon fa fa-sign-in-alt m-2"></i>
-                                <span>sign in</span>
+                                <span>{{ __('tr.Sign In') }}</span>
                             </a>
                         </div>
                         <!-- end header auth -->
@@ -116,11 +114,8 @@
             <div class="row">
                 <div class="col-12">
                     <div class="header__search-content">
-                        <label>
-                            <input type="text" placeholder="Search for a movie, TV Series that you are looking for">
-                        </label>
-
-                        <button type="button">search</button>
+                            <input type="text" placeholder="{{ __('tr.Search for a movie, TV Series that you are looking for') }}">
+                        <button type="button">{{ __('tr.Search') }}</button>
                     </div>
                 </div>
             </div>
@@ -145,7 +140,7 @@
         <div class="row">
             <!-- footer list -->
             <div class="col-12 col-md-3">
-                <h6 class="footer__title">Download Our App</h6>
+                <h6 class="footer__title">{{ __('tr.Download Our App') }}</h6>
                 <ul class="footer__app">
                     <li><a href="#"><img src="{{asset('images/Download_on_the_App_Store_Badge.png')}}" alt=""></a></li>
                     <li><a href="#"><img src="{{asset('images/google-play-badge.png')}}" alt=""></a></li>
@@ -155,29 +150,29 @@
 
             <!-- footer list -->
             <div class="col-6 col-sm-4 col-md-3">
-                <h6 class="footer__title">Watch More</h6>
+                <h6 class="footer__title">{{ __('tr.Watch More') }}</h6>
                 <ul class="footer__list">
-                    <li><a href="{{url('/tv')}}">TV</a></li>
-                    <li><a href="{{url('/places')}}">Places</a></li>
-                    <li><a href="{{url('/categories')}}">Movies Categories</a></li>
+                    <li><a href="{{url('/tv')}}">{{ __('tr.TV') }}</a></li>
+                    <li><a href="{{url('/places')}}">{{ __('tr.Places') }}</a></li>
+                    <li><a href="{{url('/categories')}}">{{ __('tr.Categories') }}</a></li>
                 </ul>
             </div>
             <!-- end footer list -->
 
             <!-- footer list -->
             <div class="col-6 col-sm-4 col-md-3">
-                <h6 class="footer__title">Legal</h6>
+                <h6 class="footer__title">{{ __('tr.Legal') }}</h6>
                 <ul class="footer__list">
-                    <li><a href="#">My Account</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">{{ __('tr.My Account') }}</a></li>
+                    <li><a href="#">{{ __('tr.About') }}</a></li>
+                    <li><a href="#">{{ __('tr.Terms & Conditions') }}</a></li>
                 </ul>
             </div>
             <!-- end footer list -->
 
             <!-- footer list -->
             <div class="col-12 col-sm-4 col-md-3">
-                <h6 class="footer__title">Contact</h6>
+                <h6 class="footer__title">{{ __('tr.Contact') }}</h6>
                 <ul class="footer__list">
                     <li><a href="tel:+9647701234567">0770-123-4567</a></li>
                     <li><a href="mailto:email@example.com">email@example.com</a></li>
@@ -191,8 +186,8 @@
             </div>
             <!-- end footer list -->
             <div class="col-12">
-                <div class="footer__copyright">
-                    <small><a target="_blank" href="https://github.com/wailashraf71">Designed by <h4>Wail Hayaly</h4></a></small>
+                <div class="footer__copyright justify-content-end text-left">
+                    <small><a target="_blank" href="email@example.com">Designed by <h4>Genius Solutions</h4></a></small>
                 </div>
             </div>
         </div>

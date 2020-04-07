@@ -11,10 +11,10 @@
                         <div class="filter__items">
                             <!-- filter item -->
                             <div class="filter__item" id="filter__quality">
-                                <span class="filter__item-label">QUALITY:</span>
+                                <span class="filter__item-label">{{ __('tr.Quality') }}:</span>
 
                                 <div class="filter__item-btn dropdown-toggle" role="navigation" id="filter-quality" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <input type="button" value="HD 1080">
+                                    <input type="button" value="HD 1080" class="px-1">
                                     <span></span>
                                 </div>
 
@@ -29,14 +29,14 @@
 
                             <!-- filter item -->
                             <div class="filter__item" id="filter__rate">
-                                <span class="filter__item-label">RATE:</span>
+                                <span class="filter__item-label">{{ __('tr.Rate') }}:</span>
 
                                 <div class="filter__item-btn dropdown-toggle" role="button" id="filter-rate" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <input type="button" value="All">
+                                    <input type="button" value="{{ __('tr.All') }}" class="px-1">
 
                                     <span></span>
                                     <ul class="filter__item-menu dropdown-menu scrollbar-dropdown" aria-labelledby="filter-quality">
-                                        <li>All</li>
+                                        <li>{{ __('tr.All') }}</li>
                                         <li>1</li>
                                         <li>2</li>
                                         <li>3</li>
@@ -53,14 +53,14 @@
 
                             <!-- filter item -->
                             <div class="filter__item" id="filter__year">
-                                <span class="filter__item-label">RELEASE YEAR:</span>
+                                <span class="filter__item-label">{{ __('tr.Release Year') }}:</span>
 
                                 <div class="filter__item-btn dropdown-toggle" role="button" id="filter-year" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <input type="button" value="All">
+                                    <input type="button" value="{{ __('tr.All') }}" class="px-1">
 
                                     <span></span>
                                     <ul class="filter__item-menu dropdown-menu scrollbar-dropdown" aria-labelledby="filter-quality">
-                                        <li>All</li>
+                                        <li>{{ __('tr.All') }}</li>
                                         <li>2020</li>
                                         <li>2020</li>
                                         <li>2020</li>
@@ -118,14 +118,14 @@
                 <div class="col-12">
                     <ul class="paginator">
                         <li class="paginator__item paginator__item--prev">
-                            <a href="#"><i class="fa fa-chevron-left"></i></a>
+                            <a href="#"><i class="fa fa-chevron-right"></i></a>
                         </li>
                         <li class="paginator__item"><a href="#">1</a></li>
                         <li class="paginator__item paginator__item--active"><a href="#">2</a></li>
                         <li class="paginator__item"><a href="#">3</a></li>
                         <li class="paginator__item"><a href="#">4</a></li>
                         <li class="paginator__item paginator__item--next">
-                            <a href="#"><i class="fa fa-chevron-right"></i></a>
+                            <a href="#"><i class="fa fa-chevron-left"></i></a>
                         </li>
                     </ul>
                 </div>

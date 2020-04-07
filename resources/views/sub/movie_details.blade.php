@@ -16,14 +16,14 @@
                     <div class="py-lg-5 p-3">
                         <h2>La casa de papel</h2>
                         <br>
-                        <h5>Drama, Crime</h5>
+                        <h5>{{ __('tr.Drama, Action') }}</h5>
                         <h5>2017</h5>
-                        <h5>3h 30m</h5>
+                        <h5>{{ __('tr.3h 30m') }}</h5>
                         <h5 style="color: #FBCE00"><i class="fa fa-star"></i> 4.3</h5>
                         <br>
-                        <p>A criminal mastermind who goes by "The Professor" has a plan to pull off the biggest heist in recorded history -- to print billions of euros in the Royal Mint of Spain. To help him carry out the ambitious plan, he recruits eight people with certain abilities and who have nothing to lose.</p>
-                        <br>
-                        <h5>Director: Álex Pina</h5>
+                        <p>{{ __('tr.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.') }}</p>
+                            <br>
+                        <h5>{{ __('tr.Director') }}: Álex Pina</h5>
 
                     </div>
                 </div>
@@ -35,8 +35,8 @@
                 <br>
                 <div class="container title">
                     <a href="{{url('/categories')}}" class="row">
-                        <h2>Relevant </h2>
-                        <h4 class="px-2 py-1"><i class="fa fa-chevron-right"></i></h4>
+                        <h2>{{ __('tr.Relatives') }} </h2>
+                        <h4 class="px-2 py-1"><i class="fa fa-chevron-left"></i></h4>
                     </a>
                     <br>
                 </div>

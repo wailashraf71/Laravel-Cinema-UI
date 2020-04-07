@@ -11,7 +11,7 @@
     text-decoration: none !important;
     list-style: none !important;
     outline: none !important;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Tajawal', sans-serif;
 
 }
 
@@ -53,6 +53,7 @@ body {
     text-align: start;
     overflow-x: hidden;
     width: 100%;
+
 }
 
 .content {
@@ -816,7 +817,7 @@ ul {
     pointer-events: auto;
     opacity: 1;
     margin-top: 10px;
-    margin-left: -100px;
+    margin-left: 100px;
 }
 .header__wrap {
     position: relative;
@@ -861,7 +862,6 @@ ul {
     padding: 0 120px 0 15px;
     font-size: 15px;
     color: #fff;
-    font-family: 'Open Sans', sans-serif;
 }
 .header__search-content button {
     position: absolute;
@@ -1007,9 +1007,7 @@ ul {
     .header__logo img {
         max-width: 142px;
     }
-    .header__auth {
-        margin-right: 54px;
-    }
+
     .header__search-btn {
         font-size: 20px;
     }
@@ -1018,7 +1016,7 @@ ul {
     }
     .header__sign-in {
         height: 40px;
-        width: 120px;
+        width: 150px;
         margin-left: 30px;
 
     }
@@ -1031,7 +1029,6 @@ ul {
         color: #fff;
         text-transform: uppercase;
         font-weight: 500;
-        letter-spacing: 1px;
     }
     .header__nav {
         top: 90px;
@@ -1047,9 +1044,6 @@ ul {
     /*.header__sign-in {*/
     /*    margin-left: 45px;*/
     /*}*/
-    .header__auth {
-        margin-right: 0;
-    }
     .header__btn {
         display: none;
     }
@@ -1066,15 +1060,12 @@ ul {
         top: auto;
         right: auto;
         bottom: auto;
-        margin-left: 45px;
+        margin-left: 400px;
     }
 
     .header__nav-item {
         margin: 0 45px 0 0;
         width: auto;
-    }
-    .header__nav-item:last-child {
-        margin: 0;
     }
     .header__nav-link {
         line-height: 90px;
@@ -1162,7 +1153,6 @@ ul {
     border-top: 1px solid rgba(255,255,255,0.05);
     position: relative;
     padding-left: 15px;
-    font-family: 'Open Sans', sans-serif;
 }
 .account__item:before {
     content: '';
@@ -1245,7 +1235,6 @@ ul {
     padding-left: 40px;
     line-height: 26px;
     margin-bottom: 15px;
-    font-family: 'Open Sans', sans-serif;
 }
 .plan-features li:before {
     content: '\f3ff';
@@ -1299,7 +1288,6 @@ ul {
     color: rgba(255,255,255,0.7);
     font-size: 15px;
     line-height: 25px;
-    font-family: 'Open Sans', sans-serif;
     margin: 0;
     letter-spacing: 0.013em;
 }
@@ -1432,7 +1420,6 @@ ul {
 }
 .footer__list li {
     margin-bottom: 10px;
-    font-family: 'Open Sans', sans-serif;
 }
 .footer__list li:last-child {
     margin-bottom: 0;
@@ -1506,7 +1493,6 @@ ul {
     margin-top: 15px;
     border-top: 1px solid rgba(255,255,255,0.05);
     padding-top: 30px;
-    font-family: 'Open Sans', sans-serif;
 }
 .footer__copyright small {
     color: rgba(255,255,255,0.5);
@@ -1829,7 +1815,6 @@ ul {
     border-radius: 0;
     padding: 0 20px;
     letter-spacing: 0.013em;
-    font-family: 'Open Sans', sans-serif;
 }
 .sign__group {
     position: relative;
@@ -1848,7 +1833,6 @@ ul {
 .sign__group--checkbox input:checked + label {
     font-size: 14px;
     color: rgba(255,255,255,0.5);
-    font-family: 'Open Sans', sans-serif;
     position: relative;
     cursor: pointer;
     padding-left: 34px;
@@ -1941,7 +1925,6 @@ ul {
     margin-top: 20px;
     font-size: 14px;
     color: rgba(255,255,255,0.5);
-    font-family: 'Open Sans', sans-serif;
 }
 .sign__text a {
     position: relative;

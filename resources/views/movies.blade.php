@@ -40,8 +40,8 @@
     <br>
     <div class="container title">
         <a href="{{url('/categories')}}" class="row">
-            <h2>In Theaters </h2>
-            <h4 class="px-2 py-1"><i class="fa fa-chevron-right"></i></h4>
+            <h2>{{ __('tr.In Theaters') }}</h2>
+            <h4 class="px-2 py-1"><i class="fa fa-chevron-left"></i></h4>
             </a>
         <br>
     </div>
@@ -88,8 +88,8 @@
     <br>
     <div class="container title">
         <a href="{{url('/categories')}}" class="row">
-            <h2>Box Office</h2>
-            <h4 class="px-2 py-1"><i class="fa fa-chevron-right"></i></h4>
+            <h2>{{ __('tr.Box Office') }}</h2>
+            <h4 class="px-2 py-1"><i class="fa fa-chevron-left"></i></h4>
         </a>
         <br>
     </div>
@@ -135,8 +135,8 @@
     <br>
     <div class="container title">
         <a href="{{url('/categories')}}" class="row">
-            <h2>Trending</h2>
-            <h4 class="px-2 py-1"><i class="fa fa-chevron-right"></i></h4>
+            <h2>{{ __('tr.Trending') }}</h2>
+            <h4 class="px-2 py-1"><i class="fa fa-chevron-left"></i></h4>
         </a>
         <br>
     </div>
@@ -182,8 +182,8 @@
         <br>
         <br>
             <a href="{{url('/categories')}}" class="row">
-                <h2>Categories</h2>
-                <h4 class="px-2 py-1"><i class="fa fa-chevron-right"></i></h4>
+                <h2>{{ __('tr.Categories') }}</h2>
+                <h4 class="px-2 py-1"><i class="fa fa-chevron-left"></i></h4>
             </a>
             <br>
         <div class="row">
@@ -209,8 +209,8 @@
     <br>
     <div class="container title">
         <a href="{{url('/categories')}}" class="row">
-            <h2>Recently Added</h2>
-            <h4 class="px-2 py-1"><i class="fa fa-chevron-right"></i></h4>
+            <h2>{{ __('tr.New Movies') }}</h2>
+            <h4 class="px-2 py-1"><i class="fa fa-chevron-left"></i></h4>
         </a>
         <br>
     </div>
@@ -254,8 +254,8 @@
     <br>
     <div class="container title">
         <a href="{{url('/categories')}}" class="row">
-            <h2>Most Popular</h2>
-            <h4 class="px-2 py-1"><i class="fa fa-chevron-right"></i></h4>
+            <h2>{{ __('tr.Most Popular') }}</h2>
+            <h4 class="px-2 py-1"><i class="fa fa-chevron-left"></i></h4>
         </a>
         <br>
     </div>

@@ -11,16 +11,16 @@
                         <div class="filter__items">
                             <!-- filter item -->
                             <div class="filter__item" id="filter__genre">
-                                <span class="filter__item-label">LANGUAGE:</span>
+                                <span class="filter__item-label">{{ __('tr.Language') }}:</span>
 
                                 <div class="filter__item-btn dropdown-toggle" role="navigation" id="filter-genre" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <input type="button" value="English">
+                                    <input type="button" value="{{ __('tr.English') }}" class="px-1">
                                     <span></span>
                                 </div>
 
                                 <ul class="filter__item-menu dropdown-menu scrollbar-dropdown" aria-labelledby="filter-genre">
-                                    <li>Arabic</li>
-                                    <li>English</li>
+                                    <li>{{ __('tr.Arabic') }}</li>
+                                    <li>{{ __('tr.English') }}</li>
                                 </ul>
                             </div>
                             <!-- end filter item -->
