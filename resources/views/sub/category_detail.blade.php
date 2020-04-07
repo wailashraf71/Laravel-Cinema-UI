@@ -96,21 +96,29 @@
                     <div class="col-6 col-sm-4 col-lg-3 col-xl-2">
                         <div class="item">
                             <div class="movie-poster movie-poster-slider ">
-                                <a href="{{url('movie/1')}}" class="poster-link">
-                                    <img src="https://images-na.ssl-images-amazon.com/images/I/61uw1CpRLlL._SL1500_.jpg" title="Category Details" class="img-responsive rounded" alt=" " />
-                                </a>
+                                <div>
+                                    <a href="{{url('movie/1')}}" class="poster-link">
+                                        <div class="poster-image">
+                                            <img src="https://images-na.ssl-images-amazon.com/images/I/61uw1CpRLlL._SL1500_.jpg" title="Movie Details" class="img-responsive rounded" alt=" " />
+                                            <span class="card__play">
+                                    <i class="icon-play fa fa-play"></i>
+                                </span>
+                                        </div>
+                                    </a>
+                                </div>
                                 <div class="mid-1 agileits_w3layouts_mid_1_home">
                                     <div class="w3l-movie-text">
                                         <h6 class="text-white"><a href="{{url('movie/1')}}">Red Sparrow</a></h6>
                                     </div>
                                     <div class="mid-2 agile_mid_2_home row">
-                                        <div class="col"><p class="text-secondary">2016</p></div>
+                                        <div class="col"><p class="text-secondary">2018</p></div>
                                         <div class="col"><p style="color: #FBCE00"><i class="fa fa-star"></i> 4.5</p></div>
                                         <div class="clearfix"></div>
                                     </div>
                                 </div>
                             </div>
-                        </div>                </div>
+                        </div>
+                    </div>
                     <!-- end movie widget -->
 
             @endfor
